@@ -1,0 +1,15 @@
+@use "colors" as *;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  font-weight: 700;
+  color: $text-color;
+  font-family: 'Cormorant Garamond', serif;
+}
+p {
+  margin-top: 0;
+  font-weight: 400;
+  color:rgba($text-color, 0.7)
+}

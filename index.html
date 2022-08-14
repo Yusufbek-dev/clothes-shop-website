@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/cb3b11f165.js"
+      crossorigin="anonymous">  
+    </script>
+
+    <!-- uikit links -->
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header__logo">
+          <a href="#"><img src="/images/logo.png" alt="logo"></a>
+        </div>
+        <input type="checkbox" id="checkbar">
+        <div class="header__menu">
+          <a class="header__menu_item" href="#">Женщины</a>
+          <a class="header__menu_item" href="#">Мужчины</a>
+          <div class="catalog">
+            <a href="#">ОДЕЖДА +</a>
+            <a href="#">ОБУВЬ +</a>
+            <a href="#">СУМКИ +</a>
+            <a href="#">АКСЕСУАРЫ +</a>
+            <a href="#">БЕЛЬЕ +</a>
+          </div>
+          <form class="header__menu_form" action method="get">
+            <label for="search">поиск</label>
+            <input type="search" id="search">
+          </form>
+          <div class="langs">
+            <label for="ru" class="langs__item--active">Ru</label>
+            <label for="ru" class="langs__item">Ua</label>
+            <label for="ru" class="langs__item">En</label>
+            <!-- radio display none -->
+            <input type="radio" id="ru" name="lang">
+            <input type="radio" id="ua" name="lang">
+            <input type="radio" id="en" name="lang">
+          </div>
+          <div class="bottom-menu">
+            <a href="#">DEHA</a>
+            <a href="#">American vintage</a>
+            <a href="#">george gina lucy</a>
+            <a href="#">birkenstock</a>
+          </div>
+        </div>
+        <div class="header__right">
+          <div class="langs">
+            <label for="ru" class="langs__item--active">Ru</label>
+            <label for="ru" class="langs__item">Ua</label>
+            <label for="ru" class="langs__item">En</label>
+            <!-- radio display none -->
+            <input type="radio" id="ru" name="lang">
+            <input type="radio" id="ua" name="lang">
+            <input type="radio" id="en" name="lang">
+          </div>
+          <div class="icons">
+            <a href="#"><img src="/images/icons/user.png" alt=""></a>
+            <a href="#"><img src="/images/icons/heart.png" alt=""></a>
+            <a href="#"><img src="/images/icons/shop.png" alt=""></a>
+          </div>
+          
+        </div>
+        <label class="bar" for="checkbar">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </label>
+      </div>
+    </header>
+    <div class="hero" uk-slideshow="animation: push; autoplay: true; autoplay-interval: 5000">
+      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:2.8; animation: push">
+
+        <ul class="uk-slideshow-items">
+            <li>
+                <img src="images/banner1.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-position-small uk-text-center uk-light bn-text">
+                  <h3 class="uk-margin-remove uk-text-uppercase">бренд</h3>
+                    <h1 class="uk-text-uppercase">american vintage</h1>
+                  <h4 class="uk-margin-remove uk-text-uppercase"><a href="#">Смотреть коллекцию</a></h4>
+              </div>
+              <div class="bg"></div>
+            </li>
+            <li>
+                <img src="images/banner2.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-position-small uk-text-center uk-light bn-text">
+                  <h3 class="uk-margin-remove uk-text-uppercase">бренд</h3>
+                    <h1 class="uk-text-uppercase">american vintage</h1>
+                  <h4 class="uk-margin-remove uk-text-uppercase"><a href="#">Смотреть коллекцию</a></h4>
+              </div>
+              <div class="bg"></div>
+            </li>
+            <li>
+                <img src="images/banner3.png" alt="" uk-cover>
+                <div  class="uk-position-center uk-position-small uk-text-center uk-light bn-text">
+                  <h3 class="uk-margin-remove uk-text-uppercase ">бренд</h3>
+                    <h1 class="uk-text-uppercase">DEHA</h1>
+                  <h4 class="uk-margin-remove uk-text-uppercase"><a href="#">Смотреть коллекцию</a></h4>
+              </div>
+              <div class="bg"></div>
+            </li>
+        </ul>
+    
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    
+    </div>
+    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin bn-dots"></ul>
+    </div>
+    <div class="news">
+      <div class="news__left">
+        <img src="./images/news-left-img.jpg" alt="">
+        <div>
+          <h2>new <br> arrival</h2>
+          <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem <br>
+            ipsumLorem ipLorem ipsumLorem ipsumLorem 
+            ipsumLorem <br>ipsumLorem ipLorem ipsumLorem ip
+          </p>
+          <a href="#">Смотреть коллекцию</a>
+        </div>
+      </div>
+      <div class="news__right">
+        <div class="news__right_img">
+          <img src="./images/news-right-img.png" alt="">
+          <p>Lorem ipsumLorem ipsumLorem ipsumLorem 
+            ipsumLorem ipLorem ipsumLorem ip</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="popular">
+      <h3 class="popular__title">Популярное</h3>
+      <div uk-slider class="popular-slider">
+
+        <div class="uk-position-relative">
+            <div class="uk-slider-container uk-light">
+                <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+                    <li>
+                        <img src="images/popular-img1.jpg" width="230" height="365" alt="">
+                        <div class="uk-position-center uk-panel"><h1>1</h1></div>
+                        <div class="popular-slider-text uk-card-body">
+                          <p class="popular-head uk-card-title">REPlay</p>
+                          <p class="popular-type"> Classic shoes</p>
+                          <p class="sale-text"><del>6100 UAH</del> 3800 UAH</p>
+                         </div>
+                    </li>
+                    <li>
+                        <img src="images/popular-img2.jpg" width="230" height="365" alt="">
+                        <div class="uk-position-center uk-panel"><h1>2</h1></div>
+                        <div class="popular-slider-text uk-card-body">
+                          <p class="popular-head uk-card-title">REPlay</p>
+                          <p class="popular-type"> Classic shoes</p>
+                          <p class="sale-text"><del>6100 UAH</del> 3800 UAH</p>
+                         </div>
+                    </li>
+                    <li>
+                        <img src="images/popular-img3.jpg" width="230" height="365" alt="">
+                        <div class="uk-position-center uk-panel"><h1>3</h1></div>
+                        <div class="popular-slider-text uk-card-body">
+                          <p class="popular-head uk-card-title">REPlay</p>
+                          <p class="popular-type"> Classic shoes</p>
+                          <p class="sale-text"><del>6100 UAH</del> 3800 UAH</p>
+                         </div>
+                    </li>
+                    <li>
+                        <img src="images/popular-img4.jpg" width="230" height="365" alt="">
+                        <div class="uk-position-center uk-panel"><h1>4</h1></div>
+                       <div class="popular-slider-text uk-card-body">
+                        <p class="popular-head uk-card-title">REPlay</p>
+                        <p class="popular-type"> Classic shoes</p>
+                        <p class="sale-text"><del>6100 UAH</del> 3800 UAH</p>
+                       </div>
+                    </li>
+                    <li>
+                        <img src="images/popular-img2.jpg" width="230" height="365" alt="">
+                        <div class="uk-position-center uk-panel"><h1>5</h1></div>
+                        <div class="popular-slider-text uk-card-body">
+                          <p class="popular-head uk-card-title">REPlay</p>
+                          <p class="popular-type"> Classic shoes</p>
+                          <p class="sale-text"><del>6100 UAH</del> 3800 UAH</p>
+                         </div>
+                    </li>
+                    <li>
+                        <img src="images/popular-img3.jpg" width="230" height="365" alt="">
+                        <div class="uk-position-center uk-panel"><h1>6</h1></div>
+                        <div class="popular-slider-text uk-card-body">
+                          <p class="popular-head uk-card-title">REPlay</p>
+                          <p class="popular-type"> Classic shoes</p>
+                          <p class="sale-text"><del>6100 UAH</del> 3800 UAH</p>
+                         </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="uk-hidden@s uk-light">
+                <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+            </div>
+    
+            <div class="uk-visible@s">
+                <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+            </div>
+    
+        </div>
+    
+        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+    
+    </div>
+    </div>
+    <div class="line-img">
+      <img src="/images/text-center.png" alt="">
+    </div>
+    <div class="about">
+      <div class="about__container">
+        <div class="about__texts">
+          <h3><sup><sup><sup>О</sup></sup></sup> нас</h3>
+          <p>Lorem ipsumLorem ipsumLorem ipsumLorem
+             ipsumLorem ipLorem ipsumLoreLorem ipsumLorem 
+             ipsumLorem ipsumLorem ipsumLorem ipLorem 
+             ipsumLorem ipsumLorem ipsumLorem ipsumLorem 
+             ipsumLorem ipsumLorem ipsumLorem ipsumipLorem 
+            ipsumLoremLorem ipsumLorem ipsumLorem ipsumLorem
+             ipsumLorem ipLorem ipsumLorem ipsumLorem ipsumLorem 
+          </p>
+        </div>
+        <div class="about__img">
+          <img src="/images/about-img.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="upgrade">
+      <div class="long-line"></div>
+      <h2 class="upgrade__title">Будьте в курсе событий</h2>
+      <div class="upgrade__box">
+        <form class="upgrade__form" action method="post">
+          <input type="email" placeholder="E-mail"><input type="submit" value="&#x2192">
+        </form>
+        <div class="upgrade__links">
+          <div class="upgrade__links_item">
+            <a href="#">О нас</a>
+          </div>
+          <div class="upgrade__links_item">
+            <a href="#">Распространенные вопросы</a>
+          </div>
+          <div class="upgrade__links_item">
+            <a href="#">Бренды</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="long-line"></div>
+    <div class="footer">
+      <div class="footer__list">
+        <p>Все права защищены  © 2020 <a href="#">Allegria.com</a></p>
+        <p><a href="#">Дизайн и разработка:</a></p>
+      </div>
+    </div>
+    <main>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
