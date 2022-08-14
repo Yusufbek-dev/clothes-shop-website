@@ -236,7 +236,7 @@ a {
   transform: translateX(0);
 }
 .header #checkbar:checked ~ .bar {
-  transform: rotate(450deg);
+  transform: rotate(90deg);
 }
 
 .hero {
